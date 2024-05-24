@@ -16,3 +16,9 @@ main img {
     padding-right: 40%;
     
 }
+
+main .projeto01, .projeto02 {
+    text-align: center;
+    color: #030101;
+
+}
