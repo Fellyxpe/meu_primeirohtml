@@ -10,6 +10,7 @@ body {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
 }
@@ -24,8 +25,8 @@ main img {
 }
 
 .projeto01, .projeto02 {
-    flex: 1;
-    padding: 20px;
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
     background-color: #f9f9f9;
     border: 2px solid #333333;
     text-align: center;
