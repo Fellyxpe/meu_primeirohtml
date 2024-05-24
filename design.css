@@ -11,6 +11,7 @@ body {
 main {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 main img {
@@ -21,10 +22,10 @@ main img {
     
 }
 
-main .projeto01, .projeto02 {
+.projeto01, .projeto02 {
     flex: 1;
     padding: 20px;
-    background-color: f9f9f9;
+    background-color: #f9f9f9;
     border: 2px solid #333333;
     text-align: center;
     color: #030101;
