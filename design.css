@@ -8,10 +8,13 @@ body {
     background-color: #da5c56;
 }
 
-main img {
+main {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 20px;
+}
+
+main img {
     width: 300px;
     height: 300px;
     padding-top: 20%;
